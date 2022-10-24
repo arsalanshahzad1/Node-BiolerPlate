@@ -1,0 +1,28 @@
+{
+  "name": "node-biolerplate",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Junaid Sikander",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.6.4",
+    "mongoose": "^6.6.7",
+    "winston": "^3.8.2",
+    "winston-mongodb": "^5.1.0"
+  },
+  "imports": {
+    "#config/*": "./config/*.js",
+    "#constants/*": "./constants/*.js",
+    "#controllers/*": "./controllers/*.js",
+    "#middlewares/*": "./middlewares/*.js",
+    "#models/*": "./models/*.js",
+    "#routes/*": "./routes/*.js",
+    "#utils/*": "./utils/*.js"
+  }
+}
